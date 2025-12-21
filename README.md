@@ -1,6 +1,7 @@
 # AI 누끼 제거 서비스 (Nukki Server)
 
-Flask 기반 AI 이미지 배경 제거 백엔드 서비스입니다.
+- Flask 기반 AI 이미지 배경 제거 백엔드 서비스입니다.
+- claude init : U2NET 모델을 직접 구현한 모델로 교체
 
 ## 프로젝트 구조
 
