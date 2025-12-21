@@ -1,0 +1,16 @@
+# Flask Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# AI/ML Libraries
+torch==2.1.0
+torchvision==0.16.0
+rembg==2.0.56
+
+# Image Processing
+opencv-python==4.8.1.78
+Pillow==10.1.0
+numpy==1.24.3
+
+# Utilities
+python-dotenv==1.0.0
