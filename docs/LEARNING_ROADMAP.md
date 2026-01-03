@@ -333,13 +333,13 @@ print(f"Manual calculation: {manual_loss.mean().item():.4f}")
 from training import SegmentationDataset
 from torch.utils.data import DataLoader
 
-dataset = SegmentationDataset('data/train')
+dataset = SegmentationDataset('../data/train')
 print(f"Dataset size: {len(dataset)}")
 
 # 첫 번째 샘플 확인
 image, mask = dataset[0]
 print(f"Image shape: {image.shape}")  # (3, H, W)
-print(f"Mask shape: {mask.shape}")    # (1, H, W)
+print(f"Mask shape: {mask.shape}")  # (1, H, W)
 
 # DataLoader로 배치 만들기
 loader = DataLoader(dataset, batch_size=2, shuffle=True)

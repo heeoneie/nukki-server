@@ -405,8 +405,8 @@ from inference import BackgroundRemover
 # 1. 모델 학습
 trainer = ModelTrainer()
 result = trainer.train(
-    train_data_dir='data/train',
-    val_data_dir='data/val',
+    train_data_dir='../data/train',
+    val_data_dir='../data/val',
     num_epochs=50,
     batch_size=8
 )
